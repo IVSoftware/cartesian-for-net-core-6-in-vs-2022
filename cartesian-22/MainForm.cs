@@ -7,10 +7,7 @@ namespace cartesian_22
         public MainForm()
         {
             InitializeComponent();
-            _chart = new Chart
-            {
-                Dock = DockStyle.Fill,
-            };
+            _chart = new Chart{ Dock = DockStyle.Fill, };
             _series = new Series
             {
                 Name = "Series1",
@@ -18,6 +15,7 @@ namespace cartesian_22
                 IsVisibleInLegend = false,
                 IsXValueIndexed = false,
                 ChartType = SeriesChartType.Line,
+                BorderWidth = 2, // In a line chart, this is the width of the line.
             };
             _series.Points.Add(new DataPoint { IsEmpty = true });
 
