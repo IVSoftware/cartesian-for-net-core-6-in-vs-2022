@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cartesian-22", "cartesian-22\cartesian-22.csproj", "{F70A2145-AEAD-480C-97BB-21A15CD5EFE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F70A2145-AEAD-480C-97BB-21A15CD5EFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70A2145-AEAD-480C-97BB-21A15CD5EFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70A2145-AEAD-480C-97BB-21A15CD5EFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70A2145-AEAD-480C-97BB-21A15CD5EFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C877F066-C205-4D1F-9008-3D4B3CD8723A}
+	EndGlobalSection
+EndGlobal
